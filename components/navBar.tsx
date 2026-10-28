@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function NavBar(){
     return(
-        <div className='flex justify-evenly items-center w-full h-20 nav bg-black-500 text-yellow-200'>
+        <div className='flex justify-evenly items-center w-full h-20 nav bg-black text-yellow-200 font-bold'>
             <div>
                 <Link href='/'>Home</Link>
             </div>
